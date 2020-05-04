@@ -47,7 +47,7 @@ option{
     border-radius: 10px 10px 10px 10px;
     color: black;
     font-size: 12px;
-    padding: 0px;
+    padding: 10px;
 }
 .txtm{
 
@@ -82,3 +82,12 @@ option{
   size: 15px;
 
 }
+table, th, td {
+    border: 1px solid white;
+    padding: 3px;
+  }
+  .lbl1{
+      margin: 10px;
+      font-size: 25px;
+      color: whitesmoke;
+  }
