@@ -1,11 +1,10 @@
-*{
-	margin: 0;
-    padding: 0;
-    font-family: monospace;
-    font-style: italic;
-}
+
 body{
-    background: #0c002b;
+    background:url(https://images.unsplash.com/photo-1598662779094-110c2bad80b5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=815&q=80)no-repeat center center fixed;
+    -webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+    background-size: cover;
 }
 option{
   border-radius: 10px 10px 10px 10px;
@@ -14,11 +13,6 @@ option{
   padding: 0px;
 }
 .bar{
-    margin-left:50px;
-    margin-top: 0px;
-    margin-right: 50px;
-    margin-bottom: 50px;
-    font-size: 30px;
     background: #76def3;
     text-align: center;
     color: white;
@@ -26,68 +20,17 @@ option{
 .txt{
 
     background:rgba(0,0,0,.5);
-    display: flex;
     justify-content: center;
-    padding: 20px;
-    margin-left: 50px;
-    margin-right: 50px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-}
-.lbl{
-    display: flex;
-    justify-content: center;
-    margin-top: 10px;
-    margin-right: 5px;
-    margin-left: 5px;
-    font-size: 25px;
-    color: white;
-}
-.text{
-    border-radius: 10px 10px 10px 10px;
-    color: black;
-    font-size: 12px;
-    padding: 10px;
 }
 .txtm{
 
     background:rgba(0,0,0,.5);
-    display: flex;
-    justify-content: center;
-    padding: 20px;
-    margin-left: 50px;
-    margin-right: 50px;
 }
 .result{
-    background:rgba(0,0,0,.5);
-    display: flex;
-    justify-content: center;
-    margin-left: 50px;
-    margin-right: 50px;
+    background:rgba(0,0,0,.5) !important;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    padding:10px 20px 40px 20px;
 }
-.btn1{
-    margin-left: 20px;
-    margin-top: 10px;
-    padding: 15px;
-    font-size: 20px;
-    border-radius: 28px;
-    border: none;
-    background: #CC00AA;
-}
-.checkmark {
-  padding: 30px;
-  size: 15px;
 
-}
-table, th, td {
-    border: 1px solid white;
-    padding: 3px;
-  }
-  .lbl1{
-      margin: 10px;
-      font-size: 25px;
-      color: whitesmoke;
-  }

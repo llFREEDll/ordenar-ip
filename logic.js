@@ -75,8 +75,11 @@ const Evaluate = () =>{
         }
         broadcast.push(wildCard.substr(0,listasMascaras.value));
         netMask.push(listasMascaras.value);
+
+        var thead = document.createElement('thead');
          var tr = document.createElement('tr');
 
+         
          var red = document.createElement('th');
           var ipCell = document.createElement('th');
           var maskCell = document.createElement('th');
@@ -92,7 +95,8 @@ const Evaluate = () =>{
           tr.appendChild(red);
           tr.appendChild(ipCell);
           tr.appendChild(maskCell);
-          table.appendChild(tr);
+          thead.appendChild(tr);
+          table.appendChild(thead);
 
           var x = table.rows.length;
           let row = table.insertRow(x);
